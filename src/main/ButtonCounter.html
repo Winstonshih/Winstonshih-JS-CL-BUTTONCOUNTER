@@ -32,8 +32,13 @@
         
 
         // CODE HERE
-
-
+        let count=0;
+        const btn=getElementById("button");
+        const counter=getElementById("count");
+        btn.addEventListener('click', ()=>{
+            count+=1;
+            counter.textContent=count;
+        });
         /* OPTIONAL PRACTICE: If you want more practice later, create another button that decreases the count by 1. */
     </script>
 
